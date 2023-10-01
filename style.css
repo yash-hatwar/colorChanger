@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 1px 15px;
+    background: linear-gradient(45deg, #777777, #999999, #777777);
+    border-radius: 10px;
+    font-size: larger;
+    border: none;
+}
+button:hover{
+    background: linear-gradient(45deg, #ae1515, #701616, #cf7474);
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
